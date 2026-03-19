@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Luxe Nails Studio - Nail Salon in Orlando, FL</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <h1 class="logo">Luxe Nails Studio</h1>
+            <button class="book-btn" onclick="scrollToContact()">Book Now</button>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-content">
+            <h2>Welcome to Luxe Nails Studio</h2>
+            <p>Your destination for beautiful nails in Orlando, Florida</p>
+        </div>
+        <img src="https://images.unsplash.com/photo-1604654894610-df63bc536371?w=1200&h=600&fit=crop" alt="Beautiful nail art" class="hero-image">
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2>About Us</h2>
+            <p>At Luxe Nails Studio, we believe that beautiful nails are a form of self-expression. Our talented team of nail technicians is committed to delivering exceptional service and premium quality in every service we provide. We use only the finest products and maintain the highest standards of cleanliness and hygiene to ensure your safety and satisfaction.</p>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services">
+        <div class="container">
+            <h2>Our Services</h2>
+            <div class="services-grid">
+                <!-- Manicure -->
+                <div class="service-card">
+                    <h3>Manicure</h3>
+                    <p class="service-description">Classic manicure with polish</p>
+                    <p class="service-price">$20</p>
+                </div>
+
+                <!-- Pedicure -->
+                <div class="service-card">
+                    <h3>Pedicure</h3>
+                    <p class="service-description">Relaxing foot care with polish</p>
+                    <p class="service-price">$25</p>
+                </div>
+
+                <!-- Gel Manicure -->
+                <div class="service-card">
+                    <h3>Gel Manicure</h3>
+                    <p class="service-description">Long-lasting gel polish</p>
+                    <p class="service-price">$35</p>
+                </div>
+
+                <!-- Acrylic Full Set -->
+                <div class="service-card">
+                    <h3>Acrylic Full Set</h3>
+                    <p class="service-description">Beautiful acrylic nails</p>
+                    <p class="service-price">$45</p>
+                </div>
+
+                <!-- Acrylic Fill -->
+                <div class="service-card">
+                    <h3>Acrylic Fill</h3>
+                    <p class="service-description">Maintain your acrylics</p>
+                    <p class="service-price">$25</p>
+                </div>
+
+                <!-- Dip Powder -->
+                <div class="service-card">
+                    <h3>Dip Powder</h3>
+                    <p class="service-description">Durable powder mani/pedi</p>
+                    <p class="service-price">$30</p>
+                </div>
+
+                <!-- Nail Art -->
+                <div class="service-card">
+                    <h3>Nail Art</h3>
+                    <p class="service-description">Custom designs and creativity</p>
+                    <p class="service-price">$15+</p>
+                </div>
+
+                <!-- Kids Manicure/Pedicure -->
+                <div class="service-card">
+                    <h3>Kids Manicure/Pedicure</h3>
+                    <p class="service-description">Fun and gentle for kids</p>
+                    <p class="service-price">$15</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Business Hours Section -->
+    <section id="hours" class="hours">
+        <div class="container">
+            <h2>Business Hours</h2>
+            <div class="hours-grid">
+                <div class="hour-item">
+                    <span class="day">Monday - Friday</span>
+                    <span class="time">9:00 AM - 7:00 PM</span>
+                </div>
+                <div class="hour-item">
+                    <span class="day">Saturday</span>
+                    <span class="time">10:00 AM - 6:00 PM</span>
+                </div>
+                <div class="hour-item">
+                    <span class="day">Sunday</span>
+                    <span class="time">12:00 PM - 5:00 PM</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2>Get in Touch</h2>
+            <div class="contact-grid">
+                <!-- Contact Information -->
+                <div class="contact-info">
+                    <h3>Contact Information</h3>
+                    <p><strong>Address:</strong><br>2458 Blossom Ave<br>Orlando, FL 32801</p>
+                    <p><strong>Phone:</strong><br><a href="tel:+14075550188">(407) 555-0188</a></p>
+                </div>
+
+                <!-- Contact Email Options -->
+                <div class="contact-email">
+                    <h3>Contact Us by Email</h3>
+                    <p class="email-address">hello@luxenailsstudio.com</p>
+                    <div class="email-buttons">
+                        <button class="copy-btn" onclick="copyEmailToClipboard()">Copy Email</button>
+                        <a href="mailto:hello@luxenailsstudio.com?subject=Appointment%20Inquiry" class="email-link-btn">Email Us</a>
+                    </div>
+                    <div id="copyMessage" class="copy-message"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <p>&copy; 2026 Luxe Nails Studio. All rights reserved.</p>
+    </footer>
+
+    <!-- Link to JavaScript file -->
+    <script src="script.js"></script>
+</body>
+</html>
